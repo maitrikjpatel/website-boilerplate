@@ -1,0 +1,68 @@
+/* ------------------------------------------------------------------ */
+/* a. Webfonts and Icon fonts
+ ------------------------------------------------------------------ */
+
+@import url("fonts.css");
+
+
+/* ------------------------------------------------------------------ */
+/*    Global custom styles
+ ------------------------------------------------------------------ */
+
+html, body{
+  height: 100%;
+  /* IE10 Consumer Preview */ 
+  background-image: -ms-linear-gradient(bottom, #29A6D5 0%, #0D4E70 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(bottom, #29A6D5 0%, #0D4E70 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(bottom, #29A6D5 0%, #0D4E70 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #29A6D5), color-stop(1, #0D4E70));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(bottom, #29A6D5 0%, #0D4E70 100%);
+
+  /* W3C Markup, IE10 Release Preview */ 
+  background-image: linear-gradient(to top, #29A6D5 0%, #0D4E70 100%);
+}
+
+
+/*======================================
+=            Navigation Bar            =
+======================================*/
+
+.navbar {
+  height: 65px;
+  border-radius: 0;
+  background-color:#fff;
+}
+
+.navbar a{
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Lato', Fallback, sans-serif;
+}
+
+.navbar-header {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-brand {
+  float:none;
+}
+
+/*=======================================
+=            Main Coontainer            =
+=======================================*/
+
+
+
+
+
